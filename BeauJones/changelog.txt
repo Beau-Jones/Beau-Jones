@@ -1,0 +1,3 @@
+- TODO
+
+    * Make the project images small relative to container, possibly with a black background, so it doesn't look super busy against the image in the back.

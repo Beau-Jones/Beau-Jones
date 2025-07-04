@@ -20,12 +20,11 @@ export default function Header() {
         <ul className="flex gap-8 text-lg font-medium">
           <li><a href="#" className="hover:text-blue-300 transition">About</a></li>
           <li><a href="#" className="hover:text-blue-300 transition">Projects</a></li>
-          <li><a href="#" className="hover:text-blue-300 transition">Skills</a></li>
           <li><a href="#" className="hover:text-blue-300 transition">Contact</a></li>
         </ul>
       </nav>
 
-      <div className="relative z-10 flex flex-col items-center justify-center h-full text-center">
+      <div className="relative z-10 flex flex-col items-center justify-center h-full text-center pb-35">
         <h1 className="text-5xl font-bold mb-4">Beau Jones</h1>
         <p className="text-xl">Web Developer • Software Engineer • Human</p>
       </div>

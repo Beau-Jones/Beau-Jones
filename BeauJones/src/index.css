@@ -9,3 +9,22 @@
   -webkit-mask: linear-gradient(to top, transparent 0%, black 15%, black 100%);
   mask: linear-gradient(to top, transparent 0%, black 15%, black 100%);
 }
+
+@keyframes fadeSlideDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-slide-down {
+  animation: fadeSlideDown 2s ease forwards;
+}
+
+.inter-font {
+  font-family: 'Inter', sans-serif;
+}

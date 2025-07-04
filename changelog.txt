@@ -1,3 +1,0 @@
-- TODO
-
-    * Image in the about section spill over text section on left, ignore the margin on the right.
