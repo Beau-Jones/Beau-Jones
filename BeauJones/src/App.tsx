@@ -1,15 +1,14 @@
-import { useState } from 'react'
 import Panel from './components/Panel'
 import Header from './components/Header'
+import AboutPanel from './components/About'
 
 function App() {
 
   return (
     <>
     <Header />
- <Panel className="bg-white">
-        <h1 className="text-3xl font-bold">About Me</h1>
-        <p>This is the about panel.</p>
+      <Panel className="h-180 bg-black fade-top -mt-30">
+        <AboutPanel />
       </Panel>
 
       <Panel className="bg-gray-500">

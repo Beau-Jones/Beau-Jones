@@ -1,5 +1,11 @@
 @import "tailwindcss";
 
-.test-border {
-  border: 5px solid red;
+.fade-top {
+  -webkit-mask: linear-gradient(to bottom, transparent 0%, black 15%, black 100%);
+  mask: linear-gradient(to bottom, transparent 0%, black 15%, black 100%);
+}
+
+.fade-bottom {
+  -webkit-mask: linear-gradient(to top, transparent 0%, black 15%, black 100%);
+  mask: linear-gradient(to top, transparent 0%, black 15%, black 100%);
 }
