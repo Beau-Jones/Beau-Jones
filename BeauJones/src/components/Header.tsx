@@ -17,14 +17,14 @@ export default function Header() {
       <div className="absolute inset-0 bg-black/40" />
 
       <nav className="relative z-10 max-w-5xl mx-auto px-4 py-6 flex justify-center items-center">
-        <ul className="flex gap-8 text-lg font-medium">
+        <ul className="flex gap-8 text-lg font-inter">
           <li><a href="#" className="hover:text-blue-300 transition">About</a></li>
           <li><a href="#" className="hover:text-blue-300 transition">Projects</a></li>
           <li><a href="#" className="hover:text-blue-300 transition">Contact</a></li>
         </ul>
       </nav>
 
-      <div className="relative z-10 flex flex-col items-center justify-center h-full text-center pb-35">
+      <div className="relative z-10 flex flex-col items-center justify-center h-full text-center pb-35 inter-font">
         <h1 className="text-5xl font-bold mb-4">Beau Jones</h1>
         <p className="text-xl">Web Developer • Software Engineer • Human</p>
       </div>

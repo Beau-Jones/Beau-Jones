@@ -68,7 +68,7 @@ export default function Carousel() {
 
   return (
     <div
-      className="relative flex justify-center items-center"
+      className="relative flex justify-center items-center -my-10 inter-font"
       style={{ overflowX: 'visible', padding: '0 120px', height: `${panelHeight}px` }}
     >
       {/* Left arrow button */}
